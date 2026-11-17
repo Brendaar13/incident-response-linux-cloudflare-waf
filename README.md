@@ -8,7 +8,7 @@ Este repositorio documenta un caso real de **respuesta a incidentes, análisis d
 
 ## 📊 Impacto y Resultados Clave
 
-* **Erradicación total de malware:** Detección, aislamiento y eliminación de *webshells* y puertas traseras (*backdoors*) sin interrumpir la disponibilidad del servicio.
+* **Erradicación total de malware:** Detección, aislamiento y eliminación de *webshells* y *backdoors* sin interrumpir la disponibilidad del servicio.
 * **Recuperación crítica de almacenamiento:** Resolución de un bucle de errores en PHP que redujo un archivo de logs saturado de **1.2 GB a 8.9 KB**, evitando la caída del servidor.
 * **Mitigación de fuerza bruta y exposición:** Bloqueo de más de **11.000 intentos automatizados** por SSH y cierre perimetral de puertos internos expuestos (Node.js/Next.js en puerto 3000).
 * **Defensa proactiva en el perímetro:** Despliegue de reglas personalizadas en **Cloudflare WAF** para frenar ataques automatizados, ejecución remota de código (RCE) y descarga de copias de seguridad.
